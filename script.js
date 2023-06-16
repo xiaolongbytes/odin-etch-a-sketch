@@ -36,7 +36,7 @@ sizeButton.addEventListener("click", () => {
     if (isNaN(grids)) {
         return alert("Input was not an integer.")
     }
-    if (grids == null || grids == "") {
+    if (!grids) {
         return alert("No choice was made.")
     }
     if (parseInt(grids) > 100) {
