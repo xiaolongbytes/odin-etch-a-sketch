@@ -13,5 +13,5 @@
 
 .column {
     flex: 1;
-    border: solid lightgrey;
+    border: solid lightgrey 1px;
 }
